@@ -1,0 +1,9 @@
+- Manual testing.
+- ChatGPT
+- BE vs FE
+- Git
+- Swagger
+- Postman
+- Api testing
+- Cypress
+- CI

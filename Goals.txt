@@ -1,0 +1,7 @@
+0. Be able to create some simple React/Express apps.
+1. Write e2e tests for Front-end with Cypress.
+2. Write components tests for Front-end with Cypress.
+2. Write System tests for REST-apis using Postman.
+3. Write load tests with Junit/Playwright.
+4. Integrate these tests with CI/CD (Github actions)
+5. Be able to check if the data correct using SQL.
