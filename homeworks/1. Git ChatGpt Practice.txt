@@ -4,3 +4,6 @@
 4. Generate (with chatgpt) node.js express REST API for shop and item management.
 5. Create repository with this code. (do not forget .gitignore)
 6. Be able to launch node.js locally.
+
+Additional Optional:
+1. Cover your api with swagger.
