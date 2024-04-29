@@ -5,3 +5,7 @@
 3. Write load tests with Junit/Playwright.
 4. Integrate these tests with CI/CD (Github actions)
 5. Be able to check if the data correct using SQL.
+
+We will not able to cover:
+1. Component/Unit tests with Jest/Vitest.
+2. Code coverages/reports

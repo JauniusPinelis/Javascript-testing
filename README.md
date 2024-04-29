@@ -8,13 +8,18 @@
 - Aim of the course
 
 - Learn to use ChatGPT.
-- Learn to search for solutions and informations.
+- Learn to search for solutions and information.
+- Git
+- Github
+
+https://chat.openai.com/
 
 ##  Lesson 2
 
- - Types of testing.
- - GIT
- - Github 
+ - Create React FE using gen-ai
+ - Create node.js BE using gen-ai
+ - BE vs FE.
+ - types of testing.
 
 
 ## Lesson 3
