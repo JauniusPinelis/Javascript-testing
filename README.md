@@ -16,13 +16,16 @@ https://chat.openai.com/
 
 ##  Lesson 2
 
- - Create React FE using gen-ai
- - Create node.js BE using gen-ai
- - BE vs FE.
- - types of testing.
+ - API intro
+ - REST standards
+ - Postman Intro
+
+https://www.postman.com/downloads/
+https://jsonplaceholder.typicode.com/
 
 
 ## Lesson 3
 
  - SCRUM
  - Chrome Tools
+ - Types of testing.
