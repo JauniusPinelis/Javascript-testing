@@ -14,7 +14,7 @@ Create new shop, get all shops, create new items, get all items.
 Additional/optional:
 
 4. Status codes are important?
-What are the differences between 200,201,400,401,403,404,500.
+What are the differences between 200,201,204, 400,401,403,404,500,503.
 
 5. Update your code with Delete, Update functionalities 
 and create Postman Requests for those.

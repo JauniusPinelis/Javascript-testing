@@ -26,6 +26,15 @@ https://jsonplaceholder.typicode.com/
 
 ## Lesson 3
 
+ - Swagger/OpenApi
+ https://petstore.swagger.io/
+ - Postman Collection
+ - Postman Tests
+ - Chai and BDD
+ https://www.chaijs.com/
+
+## Lesson 3
+
  - SCRUM
  - Chrome Tools
  - Types of testing.
