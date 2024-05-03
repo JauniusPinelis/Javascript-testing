@@ -9,3 +9,5 @@ Report should not be committed to repo. (.gitignore should be updated)
 
 3. Try using Postman Variables and environments. BaseUrl should be an environment variable.
 This will require to export environment as a file as well.
+
+Nothing should be installed with -g
