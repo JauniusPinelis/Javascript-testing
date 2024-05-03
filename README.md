@@ -33,7 +33,16 @@ https://jsonplaceholder.typicode.com/
  - Chai and BDD
  https://www.chaijs.com/
 
-## Lesson 3
+## Lesson 4
+    Postman Variables/ Environments
+    Node.js npm installs and dependencies
+    Running Postman with Newman
+
+https://learning.postman.com/docs/collections/using-newman-cli/command-line-integration-with-newman/
+
+https://www.npmjs.com/package/newman-reporter-htmlextra
+
+## Lesson 5
 
  - SCRUM
  - Chrome Tools
