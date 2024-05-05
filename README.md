@@ -34,16 +34,22 @@ https://jsonplaceholder.typicode.com/
  https://www.chaijs.com/
 
 ## Lesson 4
-    Postman Variables/ Environments
-    Node.js npm installs and dependencies
-    Running Postman with Newman
+ - Postman Variables/ Environments
+ - Node.js npm installs and dependencies
+ - Running Postman with Newman
 
 https://learning.postman.com/docs/collections/using-newman-cli/command-line-integration-with-newman/
 
 https://www.npmjs.com/package/newman-reporter-htmlextra
 
-## Lesson 5
+## Week 2 Lesson 1
+ - CI/CD
+ - Github Actions
+ - Chrome Developer tools
 
+## Week 2 Lesson 2
+
+ - Postman Authentication
+ - JWT
  - SCRUM
- - Chrome Tools
  - Types of testing.
