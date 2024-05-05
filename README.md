@@ -46,6 +46,7 @@ https://www.npmjs.com/package/newman-reporter-htmlextra
  - CI/CD
  - Github Actions
  - Chrome Developer tools
+ - Postman AI/Swagger
 
 ## Week 2 Lesson 2
 
@@ -53,3 +54,19 @@ https://www.npmjs.com/package/newman-reporter-htmlextra
  - JWT
  - SCRUM
  - Types of testing.
+
+ ## Week 2 Lesson 3
+
+ - Load testing
+ - JMeter intro
+
+ ## Week 2 Lesson 4
+
+ - JMeter pipelines
+ - JMeter reports
+
+ ## Week 3 Lesson 1
+ - Jest
+ - System tests
+ - Integration tests
+ - Unit tests
