@@ -43,6 +43,7 @@ https://learning.postman.com/docs/collections/using-newman-cli/command-line-inte
 https://www.npmjs.com/package/newman-reporter-htmlextra
 
 ## Week 2 Lesson 1
+ - Newman and NPM revisited
  - CI/CD
  - Github Actions
  - Chrome Developer tools
