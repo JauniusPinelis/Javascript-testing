@@ -17,3 +17,4 @@ You need a running application to run your tests succesfully.
 You can launch the application and run the tests by using npm package 'concurrently'
 https://www.npmjs.com/package/concurrently
 You can launch server and tests with a single command.
+If you have other that you prefer use that.
