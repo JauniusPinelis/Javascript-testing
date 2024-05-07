@@ -44,12 +44,17 @@ https://www.npmjs.com/package/newman-reporter-htmlextra
 
 ## Week 2 Lesson 1
  - Newman and NPM revisited
+ - Some theory
+
+## Week 2 Lesson 2
+
+ - Git Branches and PR
  - CI/CD
  - Github Actions
  - Chrome Developer tools
  - Postman AI/Swagger
 
-## Week 2 Lesson 2
+## Week 2 Lesson 4
 
  - Postman Authentication
  - JWT
