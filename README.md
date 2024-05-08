@@ -51,11 +51,17 @@ https://www.npmjs.com/package/newman-reporter-htmlextra
  - Git Branches and PR
  - CI/CD
  - Github Actions
- - Chrome Developer tools
- - Postman AI/Swagger
+
+
+### Week 3 Lesson 3
+
+ - Running Postman in Github Actions
+ - Database testing
+ - SQL
 
 ## Week 2 Lesson 4
-
+ - Chrome Developer tools
+ - Postman AI/Swagger
  - Postman Authentication
  - JWT
  - SCRUM
