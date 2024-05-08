@@ -1,0 +1,126 @@
+{
+	"info": {
+		"_postman_id": "103696ed-29eb-42ed-961b-79b8fa8ce802",
+		"name": "JsonPlaceholder Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "7556965"
+	},
+	"item": [
+		{
+			"name": "Get posts",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"// Check if response status is 200\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"this test means nothing\", () => {\r",
+							"    var chai = require('chai');\r",
+							"    \r",
+							"    var assert = chai.assert;\r",
+							"\r",
+							"    assert.equal(true,true);\r",
+							"})\r",
+							"\r",
+							"// Check if response content is not empty\r",
+							"pm.test(\"Response content is not empty\", function () {\r",
+							"    // Parse response JSON\r",
+							"    const responseData = pm.response.json();\r",
+							"    \r",
+							"    // Check if response data is not empty\r",
+							"    pm.expect(responseData).to.not.be.empty;\r",
+							"\r",
+							"    _.each(responseData, function(item) {\r",
+							"        pm.expect(Object.keys(item).length).to.be.at.least(2);\r",
+							"    });\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Response collectionitems have at least 2 properties \", () => {\r",
+							"    const responseData = pm.response.json();\r",
+							"\r",
+							"    responseData.forEach(function(item) {\r",
+							"        pm.expect(Object.keys(item).length).to.be.at.least(3);\r",
+							"    });\r",
+							"})\r",
+							"\r",
+							"// Check if response time is under 5ms\r",
+							"pm.test(\"Response time is under 5ms\", () => {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(500);\r",
+							"});\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://jsonplaceholder.typicode.com/posts",
+					"protocol": "https",
+					"host": [
+						"jsonplaceholder",
+						"typicode",
+						"com"
+					],
+					"path": [
+						"posts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create post",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://jsonplaceholder.typicode.com/posts",
+					"protocol": "https",
+					"host": [
+						"jsonplaceholder",
+						"typicode",
+						"com"
+					],
+					"path": [
+						"posts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get delfi.lt",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://delfi.lt",
+					"protocol": "https",
+					"host": [
+						"delfi",
+						"lt"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
