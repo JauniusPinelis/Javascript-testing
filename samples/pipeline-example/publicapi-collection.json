@@ -52,7 +52,9 @@
 							"    pm.expect(pm.response.responseTime).to.be.below(500);\r",
 							"});\r",
 							"\r",
-							""
+							"pm.test(\"Response status code is 500\", function () {\r",
+							"    pm.response.to.have.status(500);\r",
+							"});"
 						],
 						"type": "text/javascript",
 						"packages": {}
@@ -61,14 +63,24 @@
 			],
 			"request": {
 				"method": "GET",
-				"header": [],
+				"header": [
+					{
+						"key": "password",
+						"value": "{{password}}",
+						"type": "text",
+						"uuid": "39017075-4893-4559-915e-d5140ccf8f76"
+					},
+					{
+						"key": "username",
+						"value": "{{username}}",
+						"type": "text",
+						"uuid": "e0900068-76c9-48a0-b573-f231f9317b4b"
+					}
+				],
 				"url": {
-					"raw": "https://jsonplaceholder.typicode.com/posts",
-					"protocol": "https",
+					"raw": "{{BaseUrl}}/posts",
 					"host": [
-						"jsonplaceholder",
-						"typicode",
-						"com"
+						"{{BaseUrl}}"
 					],
 					"path": [
 						"posts"
