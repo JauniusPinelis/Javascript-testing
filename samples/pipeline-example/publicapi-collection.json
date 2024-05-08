@@ -78,9 +78,12 @@
 					}
 				],
 				"url": {
-					"raw": "{{BaseUrl}}/posts",
+					"raw": "https://jsonplaceholder.typicode.com/posts",
+					"protocol": "https",
 					"host": [
-						"{{BaseUrl}}"
+						"jsonplaceholder",
+						"typicode",
+						"com"
 					],
 					"path": [
 						"posts"
