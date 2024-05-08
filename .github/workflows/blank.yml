@@ -26,9 +26,12 @@ jobs:
     - name: Make Directory for results
       run: mkdir -p testResults
 
-
+   # Run the POSTMAN collection
+    - name: Run POSTMAN collection to console
+      run: |
+       newman run ./samples/pipeline-example/publicapi-collection.json
     # Run the POSTMAN collection
-    - name: Run POSTMAN collection
+    - name: Run POSTMAN collection to file
       run: |
        newman run ./samples/pipeline-example/publicapi-collection.json -r htmlextra,json --reporter-htmlextra-export testResults/htmlreport.html
 
