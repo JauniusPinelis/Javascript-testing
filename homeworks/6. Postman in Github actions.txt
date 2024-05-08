@@ -1,8 +1,10 @@
-You already have a node.js express api (for Shop and ShopItem management)
-You already have a Postman collection to test this application.
+You have a public api with swagger documentation:
+https://petstore.swagger.io/
 
-The goal is to have these tests working in github actions.
+1. Use postman to import 'petstore' Collection from Swagger.
+2. Save this 'petstore' collection into github repo.
+3. Run this 'petstore' collection in Github Actions
+The example is here https://github.com/JauniusPinelis/Pipeline-testing/blob/main/.github/workflows/main.yml
 
-You have a working Postman pipeline example in .github/workflows/blank.yml
-Copy this pipeline, change the collection name to yours.
+4. Remove failing requests from collection to pass Postman check.
 
