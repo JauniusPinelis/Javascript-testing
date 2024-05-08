@@ -1,0 +1,8 @@
+You already have a node.js express api (for Shop and ShopItem management)
+You already have a Postman collection to test this application.
+
+The goal is to have these tests working in github actions.
+
+You have a working Postman pipeline example in .github/workflows/blank.yml
+Copy this pipeline, change the collection name to yours.
+
