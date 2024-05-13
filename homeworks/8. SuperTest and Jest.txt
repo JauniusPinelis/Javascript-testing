@@ -1,0 +1,6 @@
+In your last homework you have 2 endpoints:
+GET Transactions and Create Transaction.
+
+Please add Jest and Supertest tests to test these endpoints.
+Use ChatGPT to generate these tests, but please understand what the code does.
+The tests should be runnable with command 'npm run test'
