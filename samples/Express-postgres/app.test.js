@@ -5,7 +5,7 @@ describe('GET /todos', () => {
     test('responds with JSON message', async () => {
         const response = await request(app).get('/todos');
         expect(response.statusCode).toBe(200);
-        // expect(response.body.length).toEqual(3);
+        expect(response.body.length).toEqual(3);
     });
 });
 
