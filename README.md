@@ -53,25 +53,31 @@ https://www.npmjs.com/package/newman-reporter-htmlextra
  - Github Actions
 
 
-### Week 3 Lesson 3
+### Week 2 Lesson 3
 
  - Running Postman in Github Actions
  - Database testing
  - SQL
-- Postman AI/Swagger
+ - Postman AI/Swagger
 
 ## Week 2 Lesson 4
 
  - Express api with SQL DB
  - SQL Basics
  - Data checks
- 
- - Chrome Developer tools
+
+## Week 3 Lesson 1
+
+ - Node.js express code analysis
+ - SuperTest and Jest
+ - System tests and unit tests
+ - Jest Mocking
+ - SuperTest vs Jest vs Postman
 
  ## Week 2 Lesson 3
 
-
-- Postman Authentication
+ - Chrome Developer tools
+ - Postman Authentication
  - JWT
  - SCRUM
  - Types of testing.
