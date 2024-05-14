@@ -70,11 +70,15 @@ https://www.npmjs.com/package/newman-reporter-htmlextra
 
  - Node.js express code analysis
  - SuperTest and Jest
- - System tests and unit tests
+
+
+ ## Week 3 Lesson 2
+
  - Jest Mocking
+ - System tests and unit tests
  - SuperTest vs Jest vs Postman
 
- ## Week 2 Lesson 3
+ ## Week 3 Lesson 3
 
  - Chrome Developer tools
  - Postman Authentication

@@ -9,12 +9,22 @@ app.use(bodyParser.json());
 // Create a todo
 app.post('/todos', async (req, res) => {
     try {
-        const { title, description, category_id, user_id } = req.body;
+        const { title, description, categoryId, userId } = req.body;
         const newTodo = await pool.query(
             `INSERT INTO todos (title, description, category_id, user_id) VALUES ($1, $2, $3, $4) RETURNING *`,
-            [title, description, category_id, user_id]
+            [title, description, categoryId, userId]
         );
-        res.json(newTodo.rows[0]);
+
+        const result = newTodo.rows[0];
+        res.json(
+            {
+                title: result.title,
+                description: result.description,
+                categoryId: result.category_id,
+                userId: result.user_id
+            }
+        );
+
     } catch (err) {
         console.error(err.message);
         res.status(500).send('Server Error');
