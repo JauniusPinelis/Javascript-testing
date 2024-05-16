@@ -75,16 +75,27 @@ https://www.npmjs.com/package/newman-reporter-htmlextra
  ## Week 3 Lesson 2
 
  - Jest Mocking
- - System tests and unit tests
+ - System/Integration tests and unit tests
+
+ ## Week 3 Lesson 3
+
  - SuperTest vs Jest vs Postman
+ - Types of testing.
+
+ ## Lesson 4 Lesson 4
+ - Api Security/Authentication
+ - Api-key
+ - JWT
+ - Oauth2
+ - Postman Authentication
+ - Express with Auth0
+
 
  ## Week 3 Lesson 3
 
  - Chrome Developer tools
- - Postman Authentication
- - JWT
+
  - SCRUM
- - Types of testing.
  - Load testing
  - JMeter intro
 

@@ -11,19 +11,19 @@ describe('GET /todos', () => {
     });
 });
 
-// describe('POST /todos', () => {
-//     it('responds with JSON message and creates a user', async () => {
-//         const userData = { name: 'John Doe', email: 'john@example.com' };
-//         const response = await request(app)
-//             .post('/todos')
-//             .send(userData);
+describe('POST /todos', () => {
+    it('responds with JSON message and creates a user', async () => {
+        const userData = { name: 'John Doe', email: 'john@example.com' };
+        const response = await request(app)
+            .post('/todos')
+            .send(userData);
 
-//         expect(response.statusCode).toBe(201);
-//         // expect(response.body).toEqual({
-//         //     name: userData.name
-//         // });
-//     });
-// });
+        expect(response.statusCode).toBe(201);
+        // expect(response.body).toEqual({
+        //     name: userData.name
+        // });
+    });
+});
 
 // describe('DELETE /todos', () => {
 //     it('responds with JSON message and creates a user', async () => {

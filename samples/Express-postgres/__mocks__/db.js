@@ -36,6 +36,8 @@ const mockPool = {
                     }
                 ]
             });
+        } else (query.startsWith("INSERT")){
+            return "inserted"
         }
         // Add other conditions for different types of queries as needed
     })

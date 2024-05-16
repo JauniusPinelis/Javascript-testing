@@ -1,6 +1,7 @@
 const bodyParser = require('body-parser');
 const pool = require('./db');
 const express = require("express")
+const { addRandomDescription, test } = require("./utils");
 
 const app = express();
 
@@ -36,6 +37,14 @@ app.get('/todos', async (req, res) => {
     try {
         const allTodos = await pool.query('SELECT * FROM todos');
         res.json(allTodos.rows);
+
+        const updatedTodos = allTodos.rows.map(todo => {
+            todo.description = addRandomDescription(todo.description);
+            return todo;
+        });
+
+        res.json(updatedTodos);
+
     } catch (err) {
         console.error(err.message);
         res.status(500).send('Server Error');
