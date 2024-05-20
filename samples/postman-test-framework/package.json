@@ -1,0 +1,21 @@
+{
+  "name": "postman-test-framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "newman run user_store.postman_collection.json",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "newman": "^6.1.2",
+    "nodemon": "^3.1.0"
+  }
+}
