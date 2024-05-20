@@ -12,6 +12,9 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
       
+    - name: Change directory to project-a
+      run: cd samples/postman-test-framework
+      
     # INstall Node on the runner
     - name: Install Node
       uses: actions/setup-node@v1
