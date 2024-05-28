@@ -12,7 +12,7 @@ app.post('/users', (req, res) => {
     const { name, dateOfBirth } = req.body;
     const newUser = { id: currentId++, name, dateOfBirth };
     users.push(newUser);
-    res.status(201).json(newUser);
+    res.status(201).json({ id: newUser.id });
 });
 
 // Get all users
@@ -25,7 +25,7 @@ app.get('/users/:id', (req, res) => {
     const userId = parseInt(req.params.id, 10);
     const user = users.find(u => u.id === userId);
     if (user) {
-        res.json(user);
+        res.status(201).json(user);
     } else {
         res.status(404).send('User not found');
     }

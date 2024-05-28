@@ -3,7 +3,7 @@ import Game from './components/Game';
 
 const App = () => {
   return (
-    <div className="App">
+    <div data-cy="hello" className="App">
       <Game />
     </div>
   );
