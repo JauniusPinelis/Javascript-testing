@@ -109,3 +109,12 @@ https://www.npmjs.com/package/newman-reporter-htmlextra
  - System tests
  - Integration tests
  - Unit tests
+
+ ## Week 3
+
+ - Cypress
+
+ ## Week 4
+ - Postman automation framework revision
+ - Quality/strength of tests
+ - Cypress practice
