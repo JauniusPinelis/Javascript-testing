@@ -1,0 +1,13 @@
+You have a working React registration form in here:
+https://github.com/JauniusPinelis/Javascript-testing/tree/main/samples/registration-react
+
+Your goal is to cover this application with cypress e2e tests.
+Create a separate github repo for this project with cypress e2e tests.
+
+Additional, not required -> add github actions to run cypress with Headless browser.
+
+What should be covered:
+1. Check the all required elements are loaded. (button included)
+2. Validation functionality
+3. Submit button functionality -> does clicking display the information.
+4. Is age calculated correctly.
